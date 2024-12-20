@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class RoundedSinglePage extends StatelessWidget {
+  const RoundedSinglePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

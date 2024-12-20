@@ -84,9 +84,10 @@ class HomeScreen extends StatelessWidget {
                 ),
                 padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
                 child: Text(
-                  'Page 1',
+                  'Today\'s Account',
                   textAlign: TextAlign.center,
                   style: TextStyle(
+                    fontSize: 24,
                     fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,
                   ),
@@ -116,9 +117,10 @@ class HomeScreen extends StatelessWidget {
                 ),
                 padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
                 child: Text(
-                  'Page 2',
+                  'Monthly account',
                   textAlign: TextAlign.center,
                   style: TextStyle(
+                    fontSize: 24,
                     fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,
                   ),
@@ -148,9 +150,10 @@ class HomeScreen extends StatelessWidget {
                 ),
                 padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
                 child: Text(
-                  'Page 3',
+                  'Backup',
                   textAlign: TextAlign.center,
                   style: TextStyle(
+                    fontSize: 24,
                     fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,
                   ),
@@ -163,70 +166,70 @@ class HomeScreen extends StatelessWidget {
                 );
               },
             ),
-            ListTile(
-              title: Container(
-                decoration: BoxDecoration(
-                  color: Colors.amber[200],
-                  borderRadius: BorderRadius.circular(25), // Oval shape
-                  boxShadow: [
-                    BoxShadow(
-                      // ignore: deprecated_member_use
-                      color: Colors.grey.withOpacity(0.5),
-                      spreadRadius: 2,
-                      blurRadius: 5,
-                      offset: Offset(0, 3), // shadow position
-                    ),
-                  ],
-                ),
-                padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
-                child: Text(
-                  'Page 4',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontStyle: FontStyle.italic,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Page4()),
-                );
-              },
-            ),
-            ListTile(
-              title: Container(
-                decoration: BoxDecoration(
-                  color: Colors.amber[200],
-                  borderRadius: BorderRadius.circular(25), // Oval shape
-                  boxShadow: [
-                    BoxShadow(
-                      // ignore: deprecated_member_use
-                      color: Colors.grey.withOpacity(0.5),
-                      spreadRadius: 2,
-                      blurRadius: 5,
-                      offset: Offset(0, 3), // shadow position
-                    ),
-                  ],
-                ),
-                padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
-                child: Text(
-                  'Page 5',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontStyle: FontStyle.italic,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Page5()),
-                );
-              },
-            ),
+            // ListTile(
+            //   title: Container(
+            //     decoration: BoxDecoration(
+            //       color: Colors.amber[200],
+            //       borderRadius: BorderRadius.circular(25), // Oval shape
+            //       boxShadow: [
+            //         BoxShadow(
+            //           // ignore: deprecated_member_use
+            //           color: Colors.grey.withOpacity(0.5),
+            //           spreadRadius: 2,
+            //           blurRadius: 5,
+            //           offset: Offset(0, 3), // shadow position
+            //         ),
+            //       ],
+            //     ),
+            //     padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+            //     child: Text(
+            //       'Page 4',
+            //       textAlign: TextAlign.center,
+            //       style: TextStyle(
+            //         fontStyle: FontStyle.italic,
+            //         fontWeight: FontWeight.bold,
+            //       ),
+            //     ),
+            //   ),
+            //   onTap: () {
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(builder: (context) => Page4()),
+            //     );
+            //   },
+            // ),
+            // ListTile(
+            //   title: Container(
+            //     decoration: BoxDecoration(
+            //       color: Colors.amber[200],
+            //       borderRadius: BorderRadius.circular(25), // Oval shape
+            //       boxShadow: [
+            //         BoxShadow(
+            //           // ignore: deprecated_member_use
+            //           color: Colors.grey.withOpacity(0.5),
+            //           spreadRadius: 2,
+            //           blurRadius: 5,
+            //           offset: Offset(0, 3), // shadow position
+            //         ),
+            //       ],
+            //     ),
+            //     padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+            //     child: Text(
+            //       'Page 5',
+            //       textAlign: TextAlign.center,
+            //       style: TextStyle(
+            //         fontStyle: FontStyle.italic,
+            //         fontWeight: FontWeight.bold,
+            //       ),
+            //     ),
+            //   ),
+            //   onTap: () {
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(builder: (context) => Page5()),
+            //     );
+            //   },
+            // ),
           ],
         ),
       ),

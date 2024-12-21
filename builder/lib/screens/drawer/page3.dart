@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class Page3 extends StatefulWidget {
+  const Page3({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _Page3State createState() => _Page3State();
 }
 

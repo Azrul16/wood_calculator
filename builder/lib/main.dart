@@ -66,7 +66,8 @@ class _SplashScreenState extends State<SplashScreen> {
               Text(
                 'Welcome, Efaz',
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 36,
+                  fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.bold,
                   color: Colors.brown, // Text color for contrast
                 ),

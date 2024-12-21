@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'screens/plane_wood.dart';
-import 'screens/rounded_single.dart';
-import 'screens/rounded_multiple.dart';
+
 import 'screens/drawer/page1.dart';
 import 'screens/drawer/page2.dart';
 import 'screens/drawer/page3.dart';
-import 'screens/drawer/page4.dart';
-import 'screens/drawer/page5.dart';
+import 'screens/plane_wood.dart';
+import 'screens/rounded_multiple.dart';
+import 'screens/rounded_single.dart';
 
 class HomeScreen extends StatelessWidget {
   final List<Map<String, String>> boxes = [
